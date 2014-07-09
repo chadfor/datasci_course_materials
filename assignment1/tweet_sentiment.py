@@ -57,7 +57,6 @@ def score_tweets():
         tw_score = score_sent(tweet)
         str_tw_score = str(tw_score) + '\n'
         if tw_score != 0:
-            print tweet
             print tw_score
 
 def print_tweets():
