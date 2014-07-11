@@ -66,10 +66,8 @@ def print_tweets():
 def score_sent(tweet):
     score = 0
     words = cleanup_tweet(tweet)#.split()
-#    print 'start\n'
     for word in words:
         score = score + get_sent_score(word)
-#        print word,score
     return score
     
 
